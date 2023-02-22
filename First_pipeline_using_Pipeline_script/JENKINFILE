@@ -4,8 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 
-                echo ' welcome to github pipeline'
-                sh 'python3 --version'
+                sh 'echo welcome to first pipeline'
+                sh 'python3 -version'
             }
         }
     }
